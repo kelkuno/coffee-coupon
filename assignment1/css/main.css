@@ -96,13 +96,60 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-body {
-    background-image: url("../img/coffee-coupon.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
+/* Globals styles *********************/
+html {
+    box-sizing: border-box;
+  }
+  *, *:before, *:after {
+    box-sizing: inherit;
+  }  
+h1, h2, h3, p {
+    color: purple;
 }
+p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+h1, h2, h4 {
+    font-family: "Times New Roman", Times, Serif;
+    font-weight: bold;
+}
+body {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+.button {
+    font-size: 1.3em;
+    background-color: #ffc5c1;
+    display: inline-block;
+    position: relative;
+    width: 9em;
+    height: 2.5em;
+    color: #552511;
+    border-radius: .5em;
+}
+.button-text {
+    display: inline-block;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+i {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    right: .7em;
+    color: #e65037;
+}
+/* Coupon */
 
+header {
+    background-color: black;
+    display: inline-block;
+}
 
 
 
