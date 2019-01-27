@@ -105,6 +105,16 @@ html {
   }  
 h1, h2, h3, p {
     color: purple;
+    line-height: 1;
+    margin: 0;
+}
+h2 {
+    font-size: 2.5em;
+    padding: .7rem 0 0 0;
+}
+h1 {
+    font-size: 3.7em;
+    padding: 0 0 1rem 0;
 }
 p {
     font-family: Arial, Helvetica, sans-serif;
@@ -118,6 +128,24 @@ body {
     padding: 0;
     line-height: 1;
 }
+.coupon {
+    border: solid blue 2px;
+    width: 650px;
+    height: 395px;
+    position: relative;
+}
+img {
+    border: solid green 2px;
+    width: 100%;
+}
+/* banner ***********************/
+.banner {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    background-color: #c93042;
+}
+/* button ***********************/
 .button {
     font-size: 1.3em;
     background-color: #ffc5c1;
@@ -146,10 +174,7 @@ i {
 }
 /* Coupon */
 
-header {
-    background-color: black;
-    display: inline-block;
-}
+
 
 
 
